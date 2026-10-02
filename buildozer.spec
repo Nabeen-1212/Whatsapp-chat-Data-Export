@@ -43,6 +43,9 @@ android.archs = arm64-v8a
 
 android.accept_sdk_license = True
 
+p4a.branch = develop
+p4a.commit = d2ee8c5
+
 # Android app theme
 android.entrypoint = org.kivy.android.PythonActivity
 
