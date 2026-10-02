@@ -28,6 +28,9 @@ orientation = portrait
 fullscreen = 0
 
 
+
+
+
 # ------------------------------------------------------------
 # ANDROID
 # ------------------------------------------------------------
@@ -37,6 +40,8 @@ android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,MANAGE_EXTERN
 
 # Architecture
 android.archs = arm64-v8a
+
+android.accept_sdk_license = True
 
 # Android app theme
 android.entrypoint = org.kivy.android.PythonActivity
